@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
           ביחד נשחרר חסימות, נשנה אמונות מגבילות ונחבר אתכם לשקט ולעוצמה הפנימית שלכם.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-          <a href="https://wa.me/972546243864" className="px-8 py-4 bg-green-500 text-white rounded-full font-bold text-lg shadow-xl hover:bg-green-600 hover:scale-105 transition-all text-center flex items-center justify-center gap-2">
+          <a href="https://wa.me/972546243864?text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%90%D7%A1%D7%AA%D7%A8%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%2F%D7%AA%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%95%D7%93%20%D7%A2%D7%9C%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%20%D7%AA%D7%98%D7%90%20%D7%94%D7%99%D7%9C%D7%99%D7%A0%D7%92" className="px-8 py-4 bg-green-500 text-white rounded-full font-bold text-lg shadow-xl hover:bg-green-600 hover:scale-105 transition-all text-center flex items-center justify-center gap-2">
             <span>צרו קשר בוואטסאפ</span>
           </a>
           <a href="#about" className="px-8 py-4 bg-white text-indigo-600 rounded-full font-bold text-lg shadow-md hover:bg-gray-50 transition-all border border-indigo-100 text-center">

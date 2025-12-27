@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center gap-2">
             <div className="w-9 h-9 md:w-10 md:h-10 bg-indigo-400 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg">א</div>
-            <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">אסתר תטא</span>
+            <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">אסתר צימרמן תטא הילינג</span>
           </div>
           
           <div className="hidden md:block">
@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
               <a href="#home" className="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium transition-colors">בית</a>
               <a href="#about" className="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium transition-colors">על הטיפול</a>
               <a href="#services" className="text-gray-700 hover:text-indigo-600 px-3 py-2 font-medium transition-colors">מחירים</a>
-              <a href="https://wa.me/972546243864" className="bg-indigo-500 text-white px-6 py-2 rounded-full font-medium hover:bg-indigo-600 transition-all shadow-md">שלחו וואטסאפ</a>
+              <a href="https://wa.me/972546243864?text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%90%D7%A1%D7%AA%D7%A8%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%2F%D7%AA%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%95%D7%93%20%D7%A2%D7%9C%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%20%D7%AA%D7%98%D7%90%20%D7%94%D7%99%D7%9C%D7%99%D7%A0%D7%92" className="bg-indigo-500 text-white px-6 py-2 rounded-full font-medium hover:bg-indigo-600 transition-all shadow-md">שלחו וואטסאפ</a>
             </div>
           </div>
           
@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
             <a href="#home" onClick={closeMenu} className="block px-3 py-2 text-gray-700 hover:bg-indigo-50 rounded-md">בית</a>
             <a href="#about" onClick={closeMenu} className="block px-3 py-2 text-gray-700 hover:bg-indigo-50 rounded-md">על הטיפול</a>
             <a href="#services" onClick={closeMenu} className="block px-3 py-2 text-gray-700 hover:bg-indigo-50 rounded-md">מחירים</a>
-            <a href="https://wa.me/972546243864" onClick={closeMenu} className="block px-3 py-2 text-indigo-600 font-bold bg-indigo-50 rounded-md">שלחו וואטסאפ</a>
+            <a href="https://wa.me/972546243864?text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%90%D7%A1%D7%AA%D7%A8%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%2F%D7%AA%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%95%D7%93%20%D7%A2%D7%9C%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%20%D7%AA%D7%98%D7%90%20%D7%94%D7%99%D7%9C%D7%99%D7%A0%D7%92" onClick={closeMenu} className="block px-3 py-2 text-indigo-600 font-bold bg-indigo-50 rounded-md">שלחו וואטסאפ</a>
           </div>
         </div>
       )}
