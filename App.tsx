@@ -17,11 +17,11 @@ const App: React.FC = () => {
         <Hero />
         
         {/* Features / Benefits Section */}
-        <section id="about" className="py-24 bg-gray-50">
+        <section id="about" className="py-24 bg-gray-50" aria-labelledby="about-heading">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="text-right">
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">למה תטא הילינג?</h2>
+                <h2 id="about-heading" className="text-3xl font-bold text-gray-900 mb-6">למה תטא הילינג?</h2>
                 <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                   <p>
                     תטא הילינג היא שיטת ריפוי עוצמתית המאפשרת לנו לגשת ישירות לתת-המודע שלנו.
@@ -70,7 +70,14 @@ const App: React.FC = () => {
                 </div>
               </div>
               <div className="flex justify-center">
-                <img src={meditationImage} alt={IMAGES.meditation.alt} className="rounded-3xl shadow-xl max-w-full h-auto" />
+                <img
+                  src={meditationImage}
+                  alt={IMAGES.meditation.alt}
+                  loading="lazy"
+                  width="600"
+                  height="800"
+                  className="rounded-3xl shadow-xl max-w-full h-auto"
+                />
               </div>
             </div>
           </div>
@@ -79,9 +86,9 @@ const App: React.FC = () => {
         <Services />
 
         {/* Call to Action Section */}
-        <section id="contact" className="py-24 bg-indigo-600 text-white text-center">
+        <section id="contact" className="py-24 bg-indigo-600 text-white text-center" aria-labelledby="contact-heading">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">מוכנים להתחיל בשינוי?</h2>
+            <h2 id="contact-heading" className="text-3xl md:text-5xl font-bold mb-6">מוכנים להתחיל בשינוי?</h2>
             <p className="text-xl opacity-90 mb-10">אני מזמינה אתכם לשיחה קצרה ותיאום טיפול בתל אביב או מרחוק.</p>
             <a href="https://wa.me/972546243864?text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%90%D7%A1%D7%AA%D7%A8%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%9F%2F%D7%AA%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%95%D7%93%20%D7%A2%D7%9C%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%20%D7%AA%D7%98%D7%90%20%D7%94%D7%99%D7%9C%D7%99%D7%A0%D7%92" className="inline-flex items-center gap-3 px-10 py-5 bg-green-500 text-white rounded-full font-bold text-2xl shadow-2xl hover:bg-green-600 hover:scale-105 transition-all">
               <span>כתבו לאסתר צימרמן בוואטסאפ</span>
