@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <h1 className="text-4xl md:text-7xl font-extrabold tracking-tight text-gray-900 mb-6">
           <span className="block">שנו את המציאות שלכם</span>
-          <span className="block text-indigo-600">דרך התטא הילינג</span>
+          <span className="block text-indigo-600">דרך תטא הילינג</span>
         </h1>
         <p className="mt-3 max-w-md mx-auto text-base md:text-xl text-gray-600 leading-relaxed">
           אסתר צימרמן - מטפלת מוסמכת בתטא הילינג בתל אביב. 

@@ -24,24 +24,47 @@ const App: React.FC = () => {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">למה תטא הילינג?</h2>
                 <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                   <p>
-                    תטא הילינג היא שיטת ריפוי עוצמתית המאפשרת לנו לגשת ישירות לתת-המודע שלנו. 
-                    במקום שבו מילים לבדן לא מספיקות, התטא הילינג מאפשרת שינוי מהיר ויסודי.
+                    תטא הילינג היא שיטת ריפוי עוצמתית המאפשרת לנו לגשת ישירות לתת-המודע שלנו.
+                    במקום שבו מילים לבדן לא מספיקות, התטא הילינג מאפשרת שינוי יסודי.
                   </p>
                   <p>
-                    בטיפול אנחנו מוצאים את האמונות המגבילות שמונעות מכם להתקדם – בזוגיות, בקריירה או בבריאות – ומחליפים אותן באמונות חדשות שיוצרות מציאות טובה יותר.
+                    השיטה מבוססת על הבנה עמוקה שהמחשבות והאמונות שלנו יוצרות את המציאות שאנחנו חיים בה.
                   </p>
-                  <div className="pt-4 space-y-3">
+                  <p>
+                    בטיפול תטא הילינג אנחנו נכנסים למצב מדיטטיבי מיוחד (גלי מוח תטא) שמאפשר לנו לזהות בדיוק
+                    את האמונות המגבילות שמונעות מכם להתקדם – בזוגיות, בקריירה, בבריאות או בכל תחום אחר בחיים.
+                    לאחר מכן, בעזרת טכניקת הטיפול, אנחנו משחררים את האמונות הישנות ומשרישים במקומן אמונות חדשות
+                    ומעצימות שיוצרות מציאות טובה יותר.
+                  </p>
+                  <p>
+                    השינוי מתרחש ברמה העמוקה ביותר - ברמת התאים והדנ"א הרוחני - ולכן הוא יסודי, מהיר ולעיתים
+                    קרובות מיידי. אנשים מדווחים על שינויים משמעותיים כבר לאחר טיפול אחד.
+                  </p>
+                  <div className="pt-6 space-y-3">
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">במה תטא הילינג יכולה לעזור?</h3>
                     <div className="flex items-start gap-3 justify-start">
                       <div className="w-6 h-6 bg-green-500 rounded-full flex-shrink-0 mt-1 flex items-center justify-center text-white text-xs">✓</div>
-                      <span>שחרור מתחים, חרדות וטראומות</span>
+                      <span>שחרור מתחים, חרדות, פחדים וטראומות מהעבר</span>
                     </div>
                     <div className="flex items-start gap-3 justify-start">
                       <div className="w-6 h-6 bg-green-500 rounded-full flex-shrink-0 mt-1 flex items-center justify-center text-white text-xs">✓</div>
-                      <span>ריפוי רגשי ושיפור הביטחון העצמי</span>
+                      <span>ריפוי רגשי עמוק ושיפור הביטחון והערך העצמי</span>
                     </div>
                     <div className="flex items-start gap-3 justify-start">
                       <div className="w-6 h-6 bg-green-500 rounded-full flex-shrink-0 mt-1 flex items-center justify-center text-white text-xs">✓</div>
-                      <span>יצירת שפע וחיבור לשליחות האישית</span>
+                      <span>פריצת דפוסים שליליים בזוגיות ויצירת קשרים בריאים</span>
+                    </div>
+                    <div className="flex items-start gap-3 justify-start">
+                      <div className="w-6 h-6 bg-green-500 rounded-full flex-shrink-0 mt-1 flex items-center justify-center text-white text-xs">✓</div>
+                      <span>יצירת שפע כלכלי והצלחה בקריירה</span>
+                    </div>
+                    <div className="flex items-start gap-3 justify-start">
+                      <div className="w-6 h-6 bg-green-500 rounded-full flex-shrink-0 mt-1 flex items-center justify-center text-white text-xs">✓</div>
+                      <span>חיבור לשליחות האישית ומימוש הפוטנציאל האמיתי</span>
+                    </div>
+                    <div className="flex items-start gap-3 justify-start">
+                      <div className="w-6 h-6 bg-green-500 rounded-full flex-shrink-0 mt-1 flex items-center justify-center text-white text-xs">✓</div>
+                      <span>תמיכה בתהליכי ריפוי פיזיים ושיפור הבריאות</span>
                     </div>
                   </div>
                 </div>
