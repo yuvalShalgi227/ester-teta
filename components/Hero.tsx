@@ -1,7 +1,9 @@
 
 import React from 'react';
+import { IMAGES, useImageWithFallback } from '../utils/imageHelper';
 
 const Hero: React.FC = () => {
+  const heroImage = useImageWithFallback(IMAGES.hero);
   return (
     <section id="home" className="relative pt-24 pb-12 md:pt-32 md:pb-20 overflow-hidden bg-gradient-to-b from-indigo-50 to-white">
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 md:w-96 md:h-96 bg-indigo-200 opacity-20 rounded-full blur-3xl"></div>
@@ -26,9 +28,9 @@ const Hero: React.FC = () => {
         
         <div className="mt-12 md:mt-16 flex justify-center">
           <div className="relative w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl theta-glow">
-            <img 
-              src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80" 
-              alt="Esther Theta - Spiritual Healing" 
+            <img
+              src={heroImage}
+              alt={IMAGES.hero.alt}
               className="w-full h-auto object-cover min-h-[250px]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent flex items-end p-4 md:p-8">

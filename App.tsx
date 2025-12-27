@@ -5,8 +5,10 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import ChatBot from './components/ChatBot';
 import Footer from './components/Footer';
+import { IMAGES, useImageWithFallback } from './utils/imageHelper';
 
 const App: React.FC = () => {
+  const meditationImage = useImageWithFallback(IMAGES.meditation);
   return (
     <div className="min-h-screen flex flex-col font-sans">
       <Navbar />
@@ -45,7 +47,7 @@ const App: React.FC = () => {
                 </div>
               </div>
               <div className="flex justify-center">
-                <img src="https://images.unsplash.com/photo-1528319725582-ddc096101511?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800&q=80" alt="Meditation Practice" className="rounded-3xl shadow-xl max-w-full h-auto" />
+                <img src={meditationImage} alt={IMAGES.meditation.alt} className="rounded-3xl shadow-xl max-w-full h-auto" />
               </div>
             </div>
           </div>
